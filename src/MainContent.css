@@ -1,0 +1,61 @@
+/* Main container */
+.main-content {
+    padding: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: start;
+    position: relative; /* To contain the absolute positioning of the image */
+}
+
+/* Heading styling */
+.main-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+/* Wrapper for text and image */
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative; /* This will help to position the image absolutely within this container */
+}
+
+/* Text content on the left */
+.text-content {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align text and button to the left */
+}
+
+/* Paragraph styling */
+.text-content p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+.assessment-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    align-self: center; /* Center the button within its container */
+    margin-top: 20px; /* Add margin above the button */
+}
+
+.illustration {
+    position: absolute;
+    top: 200px; /* Move the image to the top */
+    right: 0; /* Align the image to the right side */
+}
+
+/* Image styling */
+.illustration img {
+    width: 700px; /* Adjust the size of the image */
+    height: auto;
+}

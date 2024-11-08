@@ -1,0 +1,126 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.video-recommendations {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-top: 20px;
+}
+
+.search-bar {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 200px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filters button {
+  padding: 8px 15px;
+  font-size: 0.9rem;
+  
+  color: white;
+  background-color: #3d0bf0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.filters button:hover {
+  background-color: #48dcec;
+}
+
+.video-thumbnails {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.thumbnail {
+  width: 150px;
+  text-align: center;
+}
+
+.thumbnail img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.thumbnail p {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #333;
+}
+

@@ -1,0 +1,32 @@
+.video-thumbnails {
+    display: flex;
+    gap: 16px; /* Space between cards */
+    flex-wrap: wrap; /* Allow wrapping to the next row */
+    justify-content: center; /* Center cards horizontally */
+  }
+  
+  .thumbnail {
+    width: 250px; /* Adjust to make the card wider */
+    padding: 16px; /* Add padding inside the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    border-radius: 10px; /* Optional: Rounded corners */
+    text-align: center; /* Center the title text */
+    background-color: #f9f9f9; /* Light background color */
+    transition: transform 0.2s; /* Smooth zoom effect on hover */
+  }
+  
+  .thumbnail:hover {
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+  }
+  
+  .thumbnail img {
+    width: 100%; /* Full width inside the card */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded image corners */
+  }
+  
+  .thumbnail p {
+    margin-top: 8px; /* Space between image and title */
+    font-size: 1rem; /* Adjust font size */
+  }
+  
